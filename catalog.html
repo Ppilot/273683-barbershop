@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Барбершоп "Бородинский"</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body style="background: #704646">
   <header class="main-header">
+   <a href="index.html" ><img src="img\barbersshop_logo.png" alt="Логотип"></a>
    <nav>
      <ul>
        <li>
@@ -26,6 +28,7 @@
      </ul>
    </nav>
    <div class="user-block">
+     <img src="img\barbersshop_icon_enter.png" alt="Вход">
      <a class="login" href="#">Вход</a>
    </div>
   </header>
@@ -45,12 +48,14 @@
   </div>
   <section class="filtr">
     <form class="filtr-vendors-products" action="" method="post">
+      <p class="filtr-vendors-products-title">Производители:</p>
       <div><input type="checkbox" name="baxter-of-california" value="baxter-of-california" checked>Baxter of California<div>
       <div><input type="checkbox" name="mr-natty" value="mr-natty">MR Natty<div>
       <div><input type="checkbox" name="uavecito" value="suavecito" checked>Suavecito<div>
       <div><input type="checkbox" name="malin-goetz" value="malin-goetz">Malin+Goetz<div>
       <div><input type="checkbox" name="murrays" value="murrays">Murray`s<div>
       <div><input type="checkbox" name="american-crew" value="american-crew" checked>American crew<div>
+      <p class="filtr-vendors-products-title">Группы товаров:</p>
       <p><input type="radio" name="shaver" value="shaver">Бритвенные принадлежности</p>
       <p><input type="radio" name="care" value="care" checked>Средства для ухода</p>
       <p><input type="radio" name="accessories" value="accessories">Аксессуары</p>
@@ -60,7 +65,7 @@
   <div class="items">
     <div class="items-individual">
       <figure class="items-individual-image">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий  «Baxter of California»">
+        <img src="img\barbersshop_collection_for_travel_baxter_of_california.png" width="220" height="165" alt="Набор для путешествий  «Baxter of California»">
       </figure>
       <p>Набор для путешествий<br></p>
       <p class="items-individual-vendor">Baxter of California"</p>
@@ -70,7 +75,7 @@
 
     <div class="items-individual">
       <figure class="items-individual-image">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Увлажняющий кондиционер  «Baxter of California»">
+        <img src="img\barbersshop_condition_baxter_of_california.png" width="220" height="165" alt="Увлажняющий кондиционер  «Baxter of California»">
       </figure>
       <p>Увлажняющий кондиционер<br></p>
       <p class="items-individual-vendor">«Baxter of California»</p>
@@ -80,7 +85,7 @@
 
     <div class="items-individual">
       <figure class="items-individual-image">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос «Suavecito»">
+        <img src="img\barbersshop_haedgel_suavecito.png" width="220" height="165" alt="Гель для волос «Suavecito»">
       </figure>
       <p>Гель для волос<br></p>
       <p class="items-individual-vendor">«Suavecito»</p>
@@ -90,7 +95,7 @@
 
     <div class="items-individual">
       <figure class="items-individual-image">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Глина для укладки волос  «American crew»">
+        <img src="img\barbersshop_haedclay_american_crew.png" width="220" height="165" alt="Глина для укладки волос  «American crew»">
       </figure>
       <p>Глина для укладки волос<br></p>
       <p class="items-individual-vendor">«American crew»</p>
@@ -100,7 +105,7 @@
 
     <div class="items-individual">
       <figure class="items-individual-image">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос «American crew»">
+        <img src="img\barbersshop_haedgel_american_crew.png" width="220" height="165" alt="Гель для волос «American crew»">
       </figure>
       <p>Гель для волос<br></p>
       <p class="items-individual-vendor">«American crew»</p>
@@ -110,7 +115,7 @@
 
     <div class="items-individual">
       <figure class="items-individual-image">
-        <img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для бритья «Baxter of California»">
+        <img src="img\barbersshop_collection_shave_baxter_of_california.png" width="220" height="165" alt="Набор для бритья «Baxter of California»">
       </figure>
       <p>Набор для бритья<br></p>
       <p class="items-individual-vendor">«Baxter of California»</p>
@@ -128,9 +133,9 @@
       </section>
       <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-vk" href="vk.com"><img src="img\barbersshop_icon_vk.png" alt="Вконтакте">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="ru-ru.facebook.com"><img src="img\barbersshop_icon_fb.png" alt="Фейсбук">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="instagram.com"><img src="img\barbersshop_icon_inst.png" alt="Инстаграм">Инстаграм</a>
       </section>
       <section class="footer-copyright">
           <p>Разработано:</p>
@@ -138,5 +143,5 @@
       </section>
     </div>
   </footer>
-</body> 
+</body>
 </html>
