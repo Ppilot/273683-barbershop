@@ -1,6 +1,6 @@
 body {
       font-family: "PT Sans Narrow", bold;
-      font-size: 14px;
+      font-size: 18px;
       line-height: 18px;
       color: #000000;
 }
@@ -15,4 +15,44 @@ h1 {
       font-size: 24px;
       line-height: 30px;
       color: #000000;
+}
+.main-header {
+      width: 960px;
+      height: 72px;
+      background-color: red;
+}
+li {
+      list-style-type: none; /* Убиреам маркеры из списков*/
+}
+
+
+header li {
+      float: left;
+}
+
+.main-header {
+      background-color: #000000;
+
+}
+
+.main-header a {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color:#ffffff;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px dashed #cccccc;
+      padding-top: 10px;
+}
+.main-header-logo {
+      float: left;
+      padding-top: 23px;
+      padding-left: 30px;
+      padding-right: 40px;
+      padding-bottom: 20px;
+}
+.user-block {
+      float: left;
 }
