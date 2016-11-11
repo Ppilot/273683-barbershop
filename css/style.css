@@ -3,6 +3,7 @@ body {
       font-size: 18px;
       line-height: 18px;
       color: #000000;
+      background-color: grey;
 }
 h1 {
       font-family: "PT Sans Narrow", bold;
@@ -32,6 +33,7 @@ header li {
 
 .main-header {
       background-color: #000000;
+      border: 0px solid black;
 
 }
 
@@ -44,7 +46,7 @@ header li {
       text-transform: uppercase;
       text-decoration: none;
       border: 1px dashed #cccccc;
-      padding-top: 10px;
+
 }
 .main-header-logo {
       float: left;
@@ -55,4 +57,14 @@ header li {
 }
 .user-block {
       float: left;
+      padding-top: 28px;
+}
+.clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+nav {
+      float: left;
+      padding-top: 28px;
 }
