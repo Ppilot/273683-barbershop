@@ -3,7 +3,9 @@ body {
       font-size: 18px;
       line-height: 18px;
       color: #000000;
-      background-color: grey;
+
+      background: url("C:\Users\p.patrushev\YandexDisk\htmlacademy_1\barbershop_1\273683-barbershop\img\barbershop-shop.jpg") no-repeat 50% 3px;
+
 }
 h1 {
       font-family: "PT Sans Narrow", bold;
@@ -20,7 +22,6 @@ h1 {
 .main-header {
       width: 960px;
       height: 72px;
-      background-color: red;
 }
 li {
       list-style-type: none; /* Убиреам маркеры из списков*/
@@ -33,7 +34,8 @@ header li {
 
 .main-header {
       background-color: #000000;
-      border: 0px solid black;
+      border: 1px solid yellow;
+      height: 72px;
 
 }
 
@@ -56,8 +58,13 @@ header li {
       padding-bottom: 20px;
 }
 .user-block {
-      float: left;
-      padding-top: 28px;
+      float: right;
+      margin-top: 24px;
+      border: 1px dashed red;
+}
+.user-block .login {
+      padding-right: 20px;
+      background: red;
 }
 .clearfix:after {
       content: "";
@@ -66,5 +73,50 @@ header li {
 }
 nav {
       float: left;
-      padding-top: 28px;
+      padding-top: 6px;
+      height: 72px;
+
+}
+.main-header nav ul li a{
+      float: left;
+      padding-right: 40px;
+}
+
+.main-second {
+      border: 1px dashed red;
+      width: 960px;
+}
+.main-second ul li a {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      color:#000000;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px dashed #cccccc;
+      float: left;
+      padding-right: 20px;
+}
+.main-second h1 {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 42px;
+      color:#000000;
+      text-transform: uppercase;
+      border: 1px dashed #cccccc;
+}
+.main-second ul li{
+      margin: 0px;
+}
+.main-second ul {
+      padding-left: 0px;
+}
+.filtr {
+      border: 1px dashed white;
+      width: 170px;
+}
+.items .items-individual {
+
 }
