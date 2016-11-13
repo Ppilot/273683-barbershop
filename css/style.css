@@ -3,8 +3,11 @@ body {
       font-size: 18px;
       line-height: 18px;
       color: #000000;
-
-      background: url("C:\Users\p.patrushev\YandexDisk\htmlacademy_1\barbershop_1\273683-barbershop\img\barbershop-shop.jpg") no-repeat 50% 3px;
+      width: 940px;
+}
+figure {
+      padding-bottom: 0px;
+      margin-bottom: 20spx;
 
 }
 h1 {
@@ -20,7 +23,7 @@ h1 {
       color: #000000;
 }
 .main-header {
-      width: 960px;
+      width: 940px;
       height: 72px;
 }
 li {
@@ -34,7 +37,7 @@ header li {
 
 .main-header {
       background-color: #000000;
-      border: 1px solid yellow;
+      outline: 1px solid yellow;
       height: 72px;
 
 }
@@ -47,7 +50,7 @@ header li {
       color:#ffffff;
       text-transform: uppercase;
       text-decoration: none;
-      border: 1px dashed #cccccc;
+      outline: 1px dashed #cccccc;
 
 }
 .main-header-logo {
@@ -60,7 +63,7 @@ header li {
 .user-block {
       float: right;
       margin-top: 24px;
-      border: 1px dashed red;
+      outline: 1px dashed red;
 }
 .user-block .login {
       padding-right: 20px;
@@ -83,8 +86,8 @@ nav {
 }
 
 .main-second {
-      border: 1px dashed red;
-      width: 960px;
+      outline: 1px dashed red;
+      width: 940px;
 }
 .main-second ul li a {
       font-family: "PT Sans Narrow";
@@ -94,7 +97,7 @@ nav {
       color:#000000;
       text-transform: uppercase;
       text-decoration: none;
-      border: 1px dashed #cccccc;
+      outline: 1px dashed #cccccc;
       float: left;
       padding-right: 20px;
 }
@@ -105,7 +108,7 @@ nav {
       line-height: 42px;
       color:#000000;
       text-transform: uppercase;
-      border: 1px dashed #cccccc;
+      outline: 1px dashed #cccccc;
 }
 .main-second ul li{
       margin: 0px;
@@ -114,9 +117,110 @@ nav {
       padding-left: 0px;
 }
 .filtr {
-      border: 1px dashed white;
-      width: 170px;
+      outline: 1px dashed white;
+      width: 240px;
+      height: 670px;
+      float: left;
 }
 .items .items-individual {
+      width: 220px;
+      height: 286px;
+      outline: 1px dashed white;
+      background-color: #ffffff;
+}
+.items-individual {
+      float: left;
+}
+.items-individual-image {
+      margin: 0px;
+}
+.items {
+      width: 700px;
+      height: 670px;
+      outline: 1px dashed black;
+      float: left;
+}
+.main-footer {
+      outline: 1px solid black;
+      width: 940px;
+      display: inline-block;
 
+}
+.container {
+
+}
+.item1, .item2, .item4, .item5 {
+      margin-right: 20px;
+}
+.item1, .item2, .item3, .item4, .item5, .item6 {
+      margin-bottom: 20px;
+}
+.footer-contacts {
+      float: left;
+      outline: 1px dashed blue;
+      width: 320px;
+}
+.footer-social {
+      float: left;
+      outline: 1px dashed blue;
+      width: 140px;
+}
+.footer-copyright {
+      float: right;
+      outline: 1px dashed blue;
+      width: 140px;
+}
+.items-list ul li {
+      display: inline-block;
+}
+.items-individual-brief {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      color:#000000;
+      outline: 1px dashed #cccccc;
+}
+.items-individual-vendor {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color:#000000;
+      outline: 1px dashed #cccccc;
+}
+.items-price {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      color:#000000;
+      outline: 1px dashed #cccccc;
+      display: inline-block;;
+}
+.items-buy {
+      font-family: "PT Sans Narrow";
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color:#000000;
+      outline: 1px dashed #cccccc;
+}
+.item-description {
+      width: 460px;
+      float: left;
+      outline: 1px dashed black;
+}
+.img-1 {
+      outline: 1px solid red;
+}
+.img-2, .img-3 {
+      float: left;
+      padding-right: 20px;
+}
+.img-4 {
+      float: right;
 }
